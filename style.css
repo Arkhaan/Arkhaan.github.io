@@ -1,0 +1,94 @@
+main {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  width: 730px;
+  margin: auto;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+#header {
+  background: #000000 url(anakin.png) 50% 50% no-repeat;
+  height: 400px;
+  width: 1300px;
+  margin: auto;
+  background-size: 1300px 400px;
+  font-size: 40px;
+  position: relative;
+}
+
+#header-name {
+  font-size: 70px;
+  margin: 0px;
+  position: absolute;
+  bottom: 25px;
+  left: 300px;
+}
+
+#header-part1 {
+  position: absolute;
+  bottom: 60px;
+  left: 300px;
+}
+
+#header, blockquote {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0px;
+}
+
+#introduction {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h2 {
+  text-transform: uppercase;
+  line-height: 100px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+
+main p {
+  margin-bottom: 40px;
+}
+
+ul {
+  margin-bottom: 40px;
+  list-style-type: square;
+}
+
+blockquote {
+  background: darkgrey;
+  width: 800px;
+  margin-left: -50px;
+  position: relative;
+}
+
+blockquote p {
+  font-size: 50px;
+  color: white;
+  line-height: 80px;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+blockquote p::before {
+  content: '“';
+  font-size: 150px;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+}
